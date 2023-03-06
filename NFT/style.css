@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.father{
+    background-color: hsl(216, 50%, 16%);
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+.father-img{
+    height: 30vh;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.father p{
+    color:  hsl(215, 51%, 70%);
+}
+.text h5{
+    color: white;
+    margin-bottom: 15px;
+    font-size: large;
+}
+.text p{
+    font-size: small;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 10px;
+    
+}
+.fam{
+    display: flex;
+    gap: 55px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);;
+}
+.eth {
+    display: flex;
+    gap: 4px;
+}
+.eth h6{
+    color: hsl(178, 100%, 50%);
+}
+.eth img{
+    height: 15px;
+}
+.clock {
+    display: flex;
+    gap: 4px;
+}
+.clock img{
+    height: 17px;
+}
+.avatar{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-inline-start: 3px solid;
+}
+.avatar img{
+    height: 5vh;
+}
+.avatar p span{
+    color: white;
+}
+
+@media screen and (max-width: 900px;) {
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+    .father{
+        display: flex;
+        flex-direction: column;
+    }
+}
